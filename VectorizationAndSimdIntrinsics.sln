@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorizedComputationsAndSimd", "VectorizedComputationsAndSimd\VectorizedComputationsAndSimd.csproj", "{55A74309-B0A3-4F1E-8901-F00FBBFF2DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorizedComputationsAndSimd.Test", "VectorizedComputationsAndSimd.Test\VectorizedComputationsAndSimd.Test.csproj", "{446C96C1-4598-4675-8D8E-9ACC1AE6AF6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A74309-B0A3-4F1E-8901-F00FBBFF2DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A74309-B0A3-4F1E-8901-F00FBBFF2DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A74309-B0A3-4F1E-8901-F00FBBFF2DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A74309-B0A3-4F1E-8901-F00FBBFF2DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446C96C1-4598-4675-8D8E-9ACC1AE6AF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446C96C1-4598-4675-8D8E-9ACC1AE6AF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446C96C1-4598-4675-8D8E-9ACC1AE6AF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446C96C1-4598-4675-8D8E-9ACC1AE6AF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
