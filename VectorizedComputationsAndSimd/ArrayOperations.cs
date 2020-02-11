@@ -23,25 +23,25 @@ namespace VectorizedComputationsAndSimd
         
         public static int SimdSum(int[] array)
         {
-            var vector = Vector<int>.Zero;
+            var sumVector = Vector<int>.Zero;
             var i = 0;
             for (; i <= array.Length - Vector<int>.Count; i += Vector<int>.Count)
             {
-                vector += new Vector<int>(array, i);
+                sumVector += new Vector<int>(array, i);
             }
 
-            var result = 0;
+            var sum = 0;
             for (var j = 0; j < Vector<int>.Count; j++)
             {
-                result += vector[j];
+                sum += sumVector[j];
             }
 
             for (; i < array.Length; i++)
             {
-                result += array[i];
+                sum += array[i];
             }
 
-            return result;
+            return sum;
         }
     }
 }
